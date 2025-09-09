@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "jira"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__getAccessibleAtlassianResources"
+    ]
+  }
+}
