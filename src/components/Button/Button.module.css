@@ -10,3 +10,24 @@
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
+
+/* Hover state - slightly darker background */
+.button:hover {
+  background-color: #7d3c98;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus state - accessible focus ring */
+.button:focus {
+  outline: 3px solid #e8d5f2;
+  outline-offset: 2px;
+  background-color: #7d3c98;
+}
+
+/* Active state - pressed effect */
+.button:active {
+  background-color: #6c2e7a;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
