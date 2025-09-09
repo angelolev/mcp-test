@@ -1,5 +1,5 @@
 .button {
-  background-color: #8e44ad;
+  background-color: #27ae60;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -13,21 +13,21 @@
 
 /* Hover state - slightly darker background */
 .button:hover {
-  background-color: #7d3c98;
+  background-color: #229954;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Focus state - accessible focus ring */
 .button:focus {
-  outline: 3px solid #e8d5f2;
+  outline: 3px solid #a9d3b8;
   outline-offset: 2px;
-  background-color: #7d3c98;
+  background-color: #229954;
 }
 
 /* Active state - pressed effect */
 .button:active {
-  background-color: #6c2e7a;
+  background-color: #1e8449;
   transform: translateY(0);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
