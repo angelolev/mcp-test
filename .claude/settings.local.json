@@ -1,11 +1,13 @@
 {
+  "permissions": {
+    "allow": [
+      "mcp__atlassian__getAccessibleAtlassianResources",
+      "Bash(git pull:*)",
+      "mcp__github__create_branch"
+    ]
+  },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "jira"
-  ],
-  "permissions": {
-    "allow": [
-      "mcp__atlassian__getAccessibleAtlassianResources"
-    ]
-  }
+  ]
 }

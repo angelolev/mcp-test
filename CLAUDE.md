@@ -45,7 +45,17 @@ This is a React + TypeScript + Vite project with a component-based architecture:
 
 ## MCP (Model Context Protocol) Integration
 
-This project is configured with Jira MCP server integration for seamless project management:
+This project is configured with both Jira and GitHub MCP server integration for seamless project management:
+
+### GitHub MCP Integration
+**IMPORTANT**: Always prefer GitHub MCP tools over bash/git commands for GitHub operations:
+- Use `mcp__github__create_branch` instead of `git checkout -b`
+- Use `mcp__github__create_pull_request` instead of `gh pr create`
+- Use `mcp__github__merge_pull_request` instead of `gh pr merge`
+- Use `mcp__github__get_pull_request` instead of `gh pr view`
+- Use `mcp__github__update_pull_request` instead of `gh pr edit`
+
+### Jira MCP Integration
 
 ### Configuration Files
 - `.mcp.json` - MCP server configuration for Claude Code
